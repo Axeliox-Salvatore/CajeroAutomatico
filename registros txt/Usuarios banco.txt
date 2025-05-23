@@ -1,0 +1,11 @@
+
+('Juan', 'Perez', '012345678', 'juan.perez@mail.com', '76543210', ('1234'),
+('Maria', 'Gomez', '112233445', 'maria.gomez@mail.com', '71234567', ('5678'),
+('Carlos', 'Ruiz', '987654321', 'carlos.ruiz@mail.com', '79876543', ('9012'),
+('Ana', 'Martinez', '334455667', 'ana.martinez@mail.com', '73456789', ('3456'),
+('Luis', 'Hernandez', '445566778', 'luis.hernandez@mail.com', '74445555', ('7890'),
+('Elena', 'Castro', '556677889', 'elena.castro@mail.com', '75554444', ('2468'),
+('Daniel', 'Lopez', '667788990', 'daniel.lopez@mail.com', '76663333', ('1357'),
+('Sofia', 'Ramirez', '778899001', 'sofia.ramirez@mail.com', '77772222', ('8642'),
+('Roberto', 'Vasquez', '889900112', 'roberto.vasquez@mail.com', '78881111', ('4826' ),
+('Gabriela', 'Ortega', '990011223', 'gabriela.ortega@mail.com', '79990000', ('9753');
