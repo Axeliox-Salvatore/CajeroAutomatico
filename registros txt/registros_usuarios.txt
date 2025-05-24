@@ -1,4 +1,4 @@
-INSERT INTO usuarios (Nombre, Apellido, DUI, Correo, Telefono, TipoCuenta, PIN, Saldo) VALUES
+
 ('Sofia', 'Romero', '149809027', 'sofia.romero1@gmail.com', '86245958', 'Corriente', SHA2('8453', 256), 2312.53),
 ('Diego', 'Lopez', '525572995', 'diego.lopez2@gmail.com', '33256879', 'Ahorro', SHA2('6308', 256), 2015.32),
 ('Camila', 'Castillo', '253891953', 'camila.castillo3@gmail.com', '93376476', 'Corriente', SHA2('3094', 256), 2350.99),
