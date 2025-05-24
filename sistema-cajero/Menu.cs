@@ -22,8 +22,8 @@ namespace sistema_cajero
         private void btnretiro_Click(object sender, EventArgs e)
         {
             Retiro ventanaRetiro = new Retiro();
-            //ventanaRetiro.Show();
-            //this.Hide();
+            ventanaRetiro.Show();
+            this.Hide();
         }
 
         private void btndeposito_Click(object sender, EventArgs e)
@@ -49,9 +49,7 @@ namespace sistema_cajero
 
         private void btnmantenimiento_Click(object sender, EventArgs e)
         {
-            Mantenimiento ventanaMantenimiento = new Mantenimiento();
-            ventanaMantenimiento.Show();
-            this.Hide();
+            
         }
 
         private void btntransferencia_Click(object sender, EventArgs e)

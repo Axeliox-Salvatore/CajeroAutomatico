@@ -13,6 +13,7 @@ namespace sistema_cajero
 {
     public partial class RegistroCliente: Form
     {
+
         public RegistroCliente()
         {
             InitializeComponent();

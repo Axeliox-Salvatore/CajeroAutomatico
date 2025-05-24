@@ -39,7 +39,12 @@ namespace sistema_cajero
           
           
     }
-      
 
+        private void btnMantenimiento_Click(object sender, EventArgs e)
+        {
+            Mantenimiento ventanaMantenimiento = new Mantenimiento();
+            ventanaMantenimiento.Show();
+            this.Hide();
+        }
     }
 }

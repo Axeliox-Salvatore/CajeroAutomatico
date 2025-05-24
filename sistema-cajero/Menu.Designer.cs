@@ -35,16 +35,14 @@
             this.btnservicios = new System.Windows.Forms.Button();
             this.btnpagos = new System.Windows.Forms.Button();
             this.btntransferencia = new System.Windows.Forms.Button();
-            this.btnmantenimiento = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnretiro
             // 
-            this.btnretiro.Location = new System.Drawing.Point(32, 137);
-            this.btnretiro.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnretiro.Location = new System.Drawing.Point(24, 111);
             this.btnretiro.Name = "btnretiro";
-            this.btnretiro.Size = new System.Drawing.Size(221, 90);
+            this.btnretiro.Size = new System.Drawing.Size(166, 73);
             this.btnretiro.TabIndex = 0;
             this.btnretiro.Text = "Retiro de dinero";
             this.btnretiro.UseVisualStyleBackColor = true;
@@ -52,10 +50,9 @@
             // 
             // btndeposito
             // 
-            this.btndeposito.Location = new System.Drawing.Point(32, 246);
-            this.btndeposito.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btndeposito.Location = new System.Drawing.Point(24, 200);
             this.btndeposito.Name = "btndeposito";
-            this.btndeposito.Size = new System.Drawing.Size(221, 90);
+            this.btndeposito.Size = new System.Drawing.Size(166, 73);
             this.btndeposito.TabIndex = 1;
             this.btndeposito.Text = "Depositos";
             this.btndeposito.UseVisualStyleBackColor = true;
@@ -63,10 +60,9 @@
             // 
             // btnretiroremesa
             // 
-            this.btnretiroremesa.Location = new System.Drawing.Point(32, 358);
-            this.btnretiroremesa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnretiroremesa.Location = new System.Drawing.Point(24, 291);
             this.btnretiroremesa.Name = "btnretiroremesa";
-            this.btnretiroremesa.Size = new System.Drawing.Size(221, 90);
+            this.btnretiroremesa.Size = new System.Drawing.Size(166, 73);
             this.btnretiroremesa.TabIndex = 2;
             this.btnretiroremesa.Text = "Retirar remesa";
             this.btnretiroremesa.UseVisualStyleBackColor = true;
@@ -74,10 +70,9 @@
             // 
             // btngenerarremesa
             // 
-            this.btngenerarremesa.Location = new System.Drawing.Point(32, 466);
-            this.btngenerarremesa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btngenerarremesa.Location = new System.Drawing.Point(24, 379);
             this.btngenerarremesa.Name = "btngenerarremesa";
-            this.btngenerarremesa.Size = new System.Drawing.Size(221, 90);
+            this.btngenerarremesa.Size = new System.Drawing.Size(166, 73);
             this.btngenerarremesa.TabIndex = 3;
             this.btngenerarremesa.Text = "Generar remesa";
             this.btngenerarremesa.UseVisualStyleBackColor = true;
@@ -85,10 +80,9 @@
             // 
             // btnservicios
             // 
-            this.btnservicios.Location = new System.Drawing.Point(789, 358);
-            this.btnservicios.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnservicios.Location = new System.Drawing.Point(592, 291);
             this.btnservicios.Name = "btnservicios";
-            this.btnservicios.Size = new System.Drawing.Size(221, 90);
+            this.btnservicios.Size = new System.Drawing.Size(166, 73);
             this.btnservicios.TabIndex = 4;
             this.btnservicios.Text = "Pago de servicios";
             this.btnservicios.UseVisualStyleBackColor = true;
@@ -96,10 +90,9 @@
             // 
             // btnpagos
             // 
-            this.btnpagos.Location = new System.Drawing.Point(789, 466);
-            this.btnpagos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnpagos.Location = new System.Drawing.Point(592, 379);
             this.btnpagos.Name = "btnpagos";
-            this.btnpagos.Size = new System.Drawing.Size(221, 90);
+            this.btnpagos.Size = new System.Drawing.Size(166, 73);
             this.btnpagos.TabIndex = 5;
             this.btnpagos.Text = "Pago de prestamo";
             this.btnpagos.UseVisualStyleBackColor = true;
@@ -107,44 +100,30 @@
             // 
             // btntransferencia
             // 
-            this.btntransferencia.Location = new System.Drawing.Point(789, 246);
-            this.btntransferencia.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btntransferencia.Location = new System.Drawing.Point(592, 200);
             this.btntransferencia.Name = "btntransferencia";
-            this.btntransferencia.Size = new System.Drawing.Size(221, 90);
+            this.btntransferencia.Size = new System.Drawing.Size(166, 73);
             this.btntransferencia.TabIndex = 6;
             this.btntransferencia.Text = "Transferencias";
             this.btntransferencia.UseVisualStyleBackColor = true;
             this.btntransferencia.Click += new System.EventHandler(this.btntransferencia_Click);
             // 
-            // btnmantenimiento
-            // 
-            this.btnmantenimiento.Location = new System.Drawing.Point(789, 137);
-            this.btnmantenimiento.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnmantenimiento.Name = "btnmantenimiento";
-            this.btnmantenimiento.Size = new System.Drawing.Size(221, 90);
-            this.btnmantenimiento.TabIndex = 7;
-            this.btnmantenimiento.Text = "Mantenimiento";
-            this.btnmantenimiento.UseVisualStyleBackColor = true;
-            this.btnmantenimiento.Click += new System.EventHandler(this.btnmantenimiento_Click);
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(168, 28);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(126, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(649, 31);
+            this.label1.Size = new System.Drawing.Size(534, 26);
             this.label1.TabIndex = 8;
             this.label1.Text = "Banco de la Universidad Nacional de El Salvador";
             // 
             // Menu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 578);
+            this.ClientSize = new System.Drawing.Size(800, 470);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnmantenimiento);
             this.Controls.Add(this.btntransferencia);
             this.Controls.Add(this.btnpagos);
             this.Controls.Add(this.btnservicios);
@@ -152,7 +131,6 @@
             this.Controls.Add(this.btnretiroremesa);
             this.Controls.Add(this.btndeposito);
             this.Controls.Add(this.btnretiro);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Menu";
             this.Text = "menu";
             this.ResumeLayout(false);
@@ -169,7 +147,6 @@
         private System.Windows.Forms.Button btnservicios;
         private System.Windows.Forms.Button btnpagos;
         private System.Windows.Forms.Button btntransferencia;
-        private System.Windows.Forms.Button btnmantenimiento;
         private System.Windows.Forms.Label label1;
     }
 }

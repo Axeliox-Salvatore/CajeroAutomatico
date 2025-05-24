@@ -28,30 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-           
-            // Panel superior simulando pantalla del ATM
-            System.Windows.Forms.Panel panelPantalla = new System.Windows.Forms.Panel();
-            panelPantalla.BackColor = System.Drawing.Color.FromArgb(0, 51, 102);
-            panelPantalla.Size = new System.Drawing.Size(1067, 80);
-            panelPantalla.Location = new System.Drawing.Point(0, 0);
-
+            this.SuspendLayout();
             // 
-            // Form1
+            // Depositos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
-            this.BackColor = System.Drawing.Color.FromArgb(30, 30, 30);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(33)))), ((int)(((byte)(37)))));
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ForeColor = System.Drawing.SystemColors.Control;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "Depositos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Controls.Add(panelPantalla);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.Name = "Form1";
             this.Text = "ATM - Inicio de Sesión";
-
-
             this.ResumeLayout(false);
-            this.PerformLayout();
+
         }
 
         #endregion

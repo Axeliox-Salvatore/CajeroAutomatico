@@ -179,6 +179,9 @@
     <Compile Include="Transferencia.Designer.cs">
       <DependentUpon>Transferencia.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Depositos.resx">
+      <DependentUpon>Depositos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
