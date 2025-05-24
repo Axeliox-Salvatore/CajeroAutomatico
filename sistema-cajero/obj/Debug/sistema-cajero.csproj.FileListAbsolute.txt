@@ -106,3 +106,6 @@ C:\Users\Pc\Desktop\proyecto\CajeroAutomatico\sistema-cajero\obj\Debug\sistema-c
 C:\Users\Pc\Desktop\proyecto\CajeroAutomatico\sistema-cajero\obj\Debug\sistema-.C65603F1.Up2Date
 C:\Users\Pc\Desktop\proyecto\CajeroAutomatico\sistema-cajero\obj\Debug\sistema-cajero.exe
 C:\Users\Pc\Desktop\proyecto\CajeroAutomatico\sistema-cajero\obj\Debug\sistema-cajero.pdb
+C:\Users\Pc\Desktop\proyecto\CajeroAutomatico\sistema-cajero\obj\Debug\sistema_cajero.Depositos.resources
+C:\Users\Pc\Desktop\proyecto\CajeroAutomatico\sistema-cajero\obj\Debug\sistema_cajero.Retiroremesa.resources
+C:\Users\Pc\Desktop\proyecto\CajeroAutomatico\sistema-cajero\obj\Debug\sistema_cajero.Generarremesa.resources

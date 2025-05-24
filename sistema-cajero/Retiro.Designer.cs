@@ -42,6 +42,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.label1.Location = new System.Drawing.Point(82, 15);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(164, 25);
@@ -52,6 +53,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.label2.Location = new System.Drawing.Point(12, 72);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(156, 25);
@@ -62,6 +64,7 @@
             // 
             this.checkedListBox1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.checkedListBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkedListBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.checkedListBox1.FormattingEnabled = true;
             this.checkedListBox1.Items.AddRange(new object[] {
             "Cuenta de ahorro",
@@ -75,6 +78,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.label3.Location = new System.Drawing.Point(12, 244);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(179, 25);
@@ -90,18 +94,22 @@
             // 
             // btnretirar
             // 
+            this.btnretirar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(57)))), ((int)(((byte)(53)))));
+            this.btnretirar.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnretirar.ForeColor = System.Drawing.Color.White;
             this.btnretirar.Location = new System.Drawing.Point(12, 298);
             this.btnretirar.Name = "btnretirar";
             this.btnretirar.Size = new System.Drawing.Size(166, 77);
             this.btnretirar.TabIndex = 7;
             this.btnretirar.Text = "Retirar";
-            this.btnretirar.UseVisualStyleBackColor = true;
+            this.btnretirar.UseVisualStyleBackColor = false;
             this.btnretirar.Click += new System.EventHandler(this.btnretirar_Click);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.label4.Location = new System.Drawing.Point(12, 182);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(159, 25);
@@ -111,7 +119,7 @@
             // mtxtdui
             // 
             this.mtxtdui.Location = new System.Drawing.Point(12, 210);
-            this.mtxtdui.Mask = "00000000-0";
+            this.mtxtdui.Mask = "000000000";
             this.mtxtdui.Name = "mtxtdui";
             this.mtxtdui.Size = new System.Drawing.Size(70, 20);
             this.mtxtdui.TabIndex = 9;

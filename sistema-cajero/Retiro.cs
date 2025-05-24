@@ -20,7 +20,7 @@ namespace sistema_cajero
 
         private void btnretirar_Click(object sender, EventArgs e)
         {
-            //string dui = /* bbtener el DUI del usuario actual al iniciar sesion */;
+            string dui = mtxtdui.Text.Trim();
             decimal montoRetiro;
 
             if (!decimal.TryParse(txtcantidad.Text.Trim(), out montoRetiro) || montoRetiro <= 0)

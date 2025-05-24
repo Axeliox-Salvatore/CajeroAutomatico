@@ -191,6 +191,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Generarremesa.resx">
+      <DependentUpon>Generarremesa.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
@@ -211,6 +214,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Retiro.resx">
       <DependentUpon>Retiro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Retiroremesa.resx">
+      <DependentUpon>Retiroremesa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SeleccionRegistro.resx">
       <DependentUpon>SeleccionRegistro.cs</DependentUpon>
