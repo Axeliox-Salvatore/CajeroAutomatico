@@ -58,7 +58,7 @@ namespace sistema_cajero
 
         private void btntransferencia_Click(object sender, EventArgs e)
         {
-            Transferencia ventanaTransferencia = new Transferencia();
+            MenuTransferencia ventanaTransferencia = new    MenuTransferencia();
             ventanaTransferencia.Show();
             this.Hide();
         }

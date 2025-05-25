@@ -20,6 +20,13 @@ namespace sistema_cajero
 
         private void btnConfirmar_Click(object sender, EventArgs e)
         {
+           
+            
+
+        }
+
+        private void btnPagar_Click(object sender, EventArgs e)
+        {
             string duiDestino = txtDuiDestino.Text.Trim();
             decimal montoTransferencia;
 
@@ -87,13 +94,12 @@ namespace sistema_cajero
                 MessageBox.Show($"Transferencia de ₡{montoTransferencia} a la cuenta con DUI {duiDestino} realizada con éxito.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 conexion.Close();
 
-           
 
-                Application.Exit(); 
+
+                Application.Exit();
+                   
             }
-
         }
     }
+
 }
-
-

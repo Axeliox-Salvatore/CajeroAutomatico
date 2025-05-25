@@ -100,6 +100,7 @@
             this.btnPagar.TabIndex = 0;
             this.btnPagar.Text = "Pagar";
             this.btnPagar.UseVisualStyleBackColor = false;
+            this.btnPagar.Click += new System.EventHandler(this.btnPagar_Click);
             // 
             // label6
             // 
@@ -134,11 +135,10 @@
             this.txtMonto.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMonto.Location = new System.Drawing.Point(139, 330);
             this.txtMonto.Margin = new System.Windows.Forms.Padding(4);
-            this.txtMonto.MaxLength = 4;
+            this.txtMonto.MaxLength = 6;
             this.txtMonto.Name = "txtMonto";
             this.txtMonto.Size = new System.Drawing.Size(249, 38);
             this.txtMonto.TabIndex = 3;
-            this.txtMonto.UseSystemPasswordChar = true;
             // 
             // txtDuiDestino
             // 
@@ -147,6 +147,7 @@
             this.txtDuiDestino.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDuiDestino.Location = new System.Drawing.Point(139, 217);
             this.txtDuiDestino.Margin = new System.Windows.Forms.Padding(4);
+            this.txtDuiDestino.MaxLength = 9;
             this.txtDuiDestino.Name = "txtDuiDestino";
             this.txtDuiDestino.Size = new System.Drawing.Size(249, 38);
             this.txtDuiDestino.TabIndex = 3;

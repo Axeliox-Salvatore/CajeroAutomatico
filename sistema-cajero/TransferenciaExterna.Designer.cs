@@ -36,8 +36,8 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.txtMonto = new System.Windows.Forms.TextBox();
-            this.txtCuentaDestino = new System.Windows.Forms.TextBox();
             this.txtBancoDestino = new System.Windows.Forms.TextBox();
+            this.txtCuentaDestino = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -151,22 +151,10 @@
             this.txtMonto.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMonto.Location = new System.Drawing.Point(139, 395);
             this.txtMonto.Margin = new System.Windows.Forms.Padding(4);
-            this.txtMonto.MaxLength = 4;
+            this.txtMonto.MaxLength = 6;
             this.txtMonto.Name = "txtMonto";
             this.txtMonto.Size = new System.Drawing.Size(249, 38);
             this.txtMonto.TabIndex = 3;
-            this.txtMonto.UseSystemPasswordChar = true;
-            // 
-            // txtCuentaDestino
-            // 
-            this.txtCuentaDestino.BackColor = System.Drawing.Color.White;
-            this.txtCuentaDestino.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtCuentaDestino.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCuentaDestino.Location = new System.Drawing.Point(139, 282);
-            this.txtCuentaDestino.Margin = new System.Windows.Forms.Padding(4);
-            this.txtCuentaDestino.Name = "txtCuentaDestino";
-            this.txtCuentaDestino.Size = new System.Drawing.Size(249, 38);
-            this.txtCuentaDestino.TabIndex = 3;
             // 
             // txtBancoDestino
             // 
@@ -179,6 +167,17 @@
             this.txtBancoDestino.Size = new System.Drawing.Size(249, 38);
             this.txtBancoDestino.TabIndex = 3;
             // 
+            // txtCuentaDestino
+            // 
+            this.txtCuentaDestino.BackColor = System.Drawing.Color.White;
+            this.txtCuentaDestino.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtCuentaDestino.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCuentaDestino.Location = new System.Drawing.Point(139, 282);
+            this.txtCuentaDestino.Margin = new System.Windows.Forms.Padding(4);
+            this.txtCuentaDestino.Name = "txtCuentaDestino";
+            this.txtCuentaDestino.Size = new System.Drawing.Size(249, 38);
+            this.txtCuentaDestino.TabIndex = 3;
+            // 
             // TransferenciaExterna
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -186,6 +185,7 @@
             this.ClientSize = new System.Drawing.Size(832, 603);
             this.Controls.Add(this.panel1);
             this.Name = "TransferenciaExterna";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TransferenciaExterna";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

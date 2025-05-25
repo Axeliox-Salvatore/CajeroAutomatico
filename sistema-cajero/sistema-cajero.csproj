@@ -129,6 +129,12 @@
     <Compile Include="Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="MenuTransferencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuTransferencia.Designer.cs">
+      <DependentUpon>MenuTransferencia.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pago.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -205,6 +211,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuTransferencia.resx">
+      <DependentUpon>MenuTransferencia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pago.resx">
       <DependentUpon>Pago.cs</DependentUpon>
