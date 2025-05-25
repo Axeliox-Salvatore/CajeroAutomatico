@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 23-05-2025 a las 01:04:51
+-- Tiempo de generación: 25-05-2025 a las 20:29:48
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -93,7 +93,10 @@ INSERT INTO `clientes` (`ID`, `Nombre`, `Apellido`, `DUI`, `Correo`, `Telefono`,
 (48, 'Nicole', 'Peña', '512578506', 'nicole.peña47@gmail.com', '28436775', 'Ahorro', '83a78b3a435a3355e1d7e4e73e7ced5a2e580695d3df036d0ba96bb16a91696b', 1239.14),
 (49, 'Cristian', 'Gomez', '360071770', 'cristian.gomez48@gmail.com', '43755522', 'Corriente', 'c9916ca5880d11008999dc266d47657e927fde740bb899caa52ca5528da796b2', 303.04),
 (50, 'Luna', 'Rosales', '274985039', 'luna.rosales49@gmail.com', '36586259', 'Ahorro', 'd70ada757917455ce5a436e921854e35871e9e368050c3681c94ca9435c71c66', 227.20),
-(51, 'Marco', 'Sanchez', '451237153', 'marco.sanchez50@gmail.com', '42273948', 'Ahorro', '3217efb0c7592918e22986cb85ff86d1a7bbc81b6a293403235ebb2f952f6a1c', 139.81);
+(51, 'Marco', 'Sanchez', '451237153', 'marco.sanchez50@gmail.com', '42273948', 'Ahorro', '3217efb0c7592918e22986cb85ff86d1a7bbc81b6a293403235ebb2f952f6a1c', 139.81),
+(52, 'axel', 'her', '777777777', 'dsa@g', '88888888', 'Ahorro', '0ffe1abd1a08215353c233d6e009613e95eec4253832a761af28ff37ac5a150c', 1000.20),
+(53, 'qqq', 'www', '999999999', 'dsax@', '88888888', 'Corriente', '9af15b336e6a9619928537df30b2e6a2376569fcf9d7e773eccede65606529a0', 500.00),
+(54, 'r', 'f', '555555555', 'd', '78787878', 'Ahorro', 'd7697570462f7562b83e81258de0f1e41832e98072e44c36ec8efec46786e24e', 300.00);
 
 -- --------------------------------------------------------
 
@@ -103,7 +106,6 @@ INSERT INTO `clientes` (`ID`, `Nombre`, `Apellido`, `DUI`, `Correo`, `Telefono`,
 
 CREATE TABLE `cuentasexternas` (
   `ID` int(11) NOT NULL,
-  `TipoCuenta` enum('Corriente','Ahorro') NOT NULL,
   `Banco` varchar(100) NOT NULL,
   `Cuenta` varchar(12) NOT NULL,
   `Usuario` varchar(100) NOT NULL,
@@ -114,8 +116,28 @@ CREATE TABLE `cuentasexternas` (
 -- Volcado de datos para la tabla `cuentasexternas`
 --
 
-INSERT INTO `cuentasexternas` (`ID`, `TipoCuenta`, `Banco`, `Cuenta`, `Usuario`, `Valor`) VALUES
-(1, '', 'Cuscatlan', '136854298521', 'Andres Garcia', 10.20);
+INSERT INTO `cuentasexternas` (`ID`, `Banco`, `Cuenta`, `Usuario`, `Valor`) VALUES
+(1, 'Cuscatlan', '136854298521', 'Andres Garcia', 10.20),
+(3, 'Banco Agrícola', '19823745', 'sofia', 125.50),
+(4, 'Davivienda', '29384756', 'diego', 240.75),
+(5, 'Scotiabank', '38475692', 'camila', 312.00),
+(6, 'Banco Hipotecario', '47586931', 'mateo', 98.25),
+(7, 'Banco Agrícola', '58273645', 'valeria', 450.00),
+(8, 'Davivienda', '67238456', 'lucas', 50.30),
+(9, 'Scotiabank', '73849501', 'isabella', 85.75),
+(10, 'Banco Hipotecario', '84920384', 'sebastian', 135.00),
+(11, 'Banco Agrícola', '95038475', 'mariana', 389.90),
+(12, 'Davivienda', '10394857', 'alejandro', 72.45),
+(13, 'Scotiabank', '11283745', 'sofia', 200.00),
+(14, 'Banco Hipotecario', '12837465', 'camila', 180.99),
+(15, 'Banco Agrícola', '13746592', 'mateo', 300.40),
+(16, 'Davivienda', '14398576', 'diego', 91.10),
+(17, 'Scotiabank', '15473820', 'lucas', 47.85),
+(18, 'Banco Hipotecario', '16274839', 'valeria', 260.00),
+(19, 'Banco Agrícola', '17839204', 'mariana', 145.30),
+(20, 'Davivienda', '18374659', 'alejandro', 390.20),
+(21, 'Scotiabank', '19485730', 'isabella', 110.60),
+(22, 'Banco Hipotecario', '20485937', 'sebastian', 285.15);
 
 -- --------------------------------------------------------
 
@@ -126,11 +148,37 @@ INSERT INTO `cuentasexternas` (`ID`, `TipoCuenta`, `Banco`, `Cuenta`, `Usuario`,
 CREATE TABLE `pagos` (
   `ID` int(11) NOT NULL,
   `NumeroPago` char(5) NOT NULL,
-  `Tipo` enum('Agua','Luz','Teléfono') NOT NULL,
+  `Tipo` enum('Agua','Luz','Telefono') NOT NULL,
   `Monto` decimal(10,2) NOT NULL,
   `Estado` enum('Pendiente','Pagado') DEFAULT 'Pendiente',
   `Fecha` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Volcado de datos para la tabla `pagos`
+--
+
+INSERT INTO `pagos` (`ID`, `NumeroPago`, `Tipo`, `Monto`, `Estado`, `Fecha`) VALUES
+(1, '19382', 'Luz', 45.75, 'Pendiente', '2025-05-25 13:42:30'),
+(2, '24817', 'Agua', 37.50, 'Pendiente', '2025-05-25 13:42:30'),
+(3, '39028', 'Telefono', 29.99, 'Pendiente', '2025-05-25 13:42:30'),
+(4, '57293', 'Luz', 60.00, 'Pendiente', '2025-05-25 13:42:30'),
+(5, '18492', 'Agua', 42.30, 'Pendiente', '2025-05-25 13:42:30'),
+(6, '68293', 'Telefono', 35.50, 'Pendiente', '2025-05-25 13:42:30'),
+(7, '18273', 'Luz', 58.20, 'Pendiente', '2025-05-25 13:42:30'),
+(8, '98374', 'Agua', 40.00, 'Pendiente', '2025-05-25 13:42:30'),
+(9, '76482', 'Telefono', 33.25, 'Pendiente', '2025-05-25 13:42:30'),
+(10, '32847', 'Luz', 47.00, 'Pendiente', '2025-05-25 13:42:30'),
+(11, '23418', 'Agua', 36.80, 'Pendiente', '2025-05-25 13:42:30'),
+(12, '91827', 'Telefono', 31.99, 'Pendiente', '2025-05-25 13:42:30'),
+(13, '76832', 'Luz', 52.40, 'Pendiente', '2025-05-25 13:42:30'),
+(14, '13284', 'Agua', 39.90, 'Pendiente', '2025-05-25 13:42:30'),
+(15, '38271', 'Telefono', 30.00, 'Pendiente', '2025-05-25 13:42:30'),
+(16, '56473', 'Luz', 61.10, 'Pendiente', '2025-05-25 13:42:30'),
+(17, '84736', 'Agua', 43.75, 'Pendiente', '2025-05-25 13:42:30'),
+(18, '14253', 'Telefono', 27.99, 'Pendiente', '2025-05-25 13:42:30'),
+(19, '45362', 'Luz', 59.95, 'Pendiente', '2025-05-25 13:42:30'),
+(20, '64738', 'Agua', 41.60, 'Pendiente', '2025-05-25 13:42:30');
 
 -- --------------------------------------------------------
 
@@ -209,7 +257,9 @@ INSERT INTO `usuariosbanco` (`ID`, `Nombre`, `Apellido`, `DUI`, `Correo`, `Telef
 (20, 'Daniel', 'Lopez', '667788990', 'daniel.lopez@mail.com', '76663333', 'f3e055913a0b1eb0f07317896f9a1bc466b9a50db85a7f882f3ffde9ffb23aca'),
 (21, 'Sofia', 'Ramirez', '778899001', 'sofia.ramirez@mail.com', '77772222', 'b03fad7e896f0497f4f3c88a5bb083c8976608495abbf14b476e6a4bb6fd2c7f'),
 (22, 'Roberto', 'Vasquez', '889900112', 'roberto.vasquez@mail.com', '78881111', '0a4e3e70597a358b9447fa8a647aadf5b76dde95c8e4ab02e5f8cee6caa1cd28'),
-(23, 'Gabriela', 'Ortega', '990011223', 'gabriela.ortega@mail.com', '79990000', 'e4ed4d14170e2017c139c958853c66f4cecd6b43c12b0e0c641f4288bd859d93');
+(23, 'Gabriela', 'Ortega', '990011223', 'gabriela.ortega@mail.com', '79990000', 'e4ed4d14170e2017c139c958853c66f4cecd6b43c12b0e0c641f4288bd859d93'),
+(24, 'asd', 'dede', '777777777', 'as@gmail.com', '88888888', 'edee29f882543b956620b26d0ee0e7e950399b1c4222f5de05e06425b4c995e9'),
+(25, 't', 'y', '555555555', 'd', '45612333', '07334386287751ba02a4588c1a0875dbd074a61bd9e6ab7c48d244eacd0c99e0');
 
 --
 -- Índices para tablas volcadas
@@ -275,19 +325,19 @@ ALTER TABLE `usuariosbanco`
 -- AUTO_INCREMENT de la tabla `clientes`
 --
 ALTER TABLE `clientes`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=52;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=55;
 
 --
 -- AUTO_INCREMENT de la tabla `cuentasexternas`
 --
 ALTER TABLE `cuentasexternas`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
 
 --
 -- AUTO_INCREMENT de la tabla `pagos`
 --
 ALTER TABLE `pagos`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 
 --
 -- AUTO_INCREMENT de la tabla `prestamos`
@@ -311,7 +361,7 @@ ALTER TABLE `transacciones`
 -- AUTO_INCREMENT de la tabla `usuariosbanco`
 --
 ALTER TABLE `usuariosbanco`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
 
 --
 -- Restricciones para tablas volcadas
