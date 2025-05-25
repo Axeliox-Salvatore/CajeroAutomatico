@@ -36,10 +36,10 @@
             this.btnpagos = new System.Windows.Forms.Button();
             this.btntransferencia = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnMantenimineto = new System.Windows.Forms.Button();
             this.lblSaldo = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnsalir = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -48,10 +48,9 @@
             this.btnretiro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
             this.btnretiro.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnretiro.ForeColor = System.Drawing.Color.White;
-            this.btnretiro.Location = new System.Drawing.Point(108, 133);
-            this.btnretiro.Margin = new System.Windows.Forms.Padding(4);
+            this.btnretiro.Location = new System.Drawing.Point(81, 108);
             this.btnretiro.Name = "btnretiro";
-            this.btnretiro.Size = new System.Drawing.Size(200, 60);
+            this.btnretiro.Size = new System.Drawing.Size(159, 49);
             this.btnretiro.TabIndex = 0;
             this.btnretiro.Text = "Retiro de dinero";
             this.btnretiro.UseVisualStyleBackColor = false;
@@ -62,10 +61,9 @@
             this.btndeposito.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
             this.btndeposito.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btndeposito.ForeColor = System.Drawing.Color.White;
-            this.btndeposito.Location = new System.Drawing.Point(592, 347);
-            this.btndeposito.Margin = new System.Windows.Forms.Padding(4);
+            this.btndeposito.Location = new System.Drawing.Point(81, 365);
             this.btndeposito.Name = "btndeposito";
-            this.btndeposito.Size = new System.Drawing.Size(200, 60);
+            this.btndeposito.Size = new System.Drawing.Size(159, 49);
             this.btndeposito.TabIndex = 1;
             this.btndeposito.Text = "Depositos";
             this.btndeposito.UseVisualStyleBackColor = false;
@@ -76,10 +74,9 @@
             this.btnretiroremesa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
             this.btnretiroremesa.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnretiroremesa.ForeColor = System.Drawing.Color.White;
-            this.btnretiroremesa.Location = new System.Drawing.Point(108, 237);
-            this.btnretiroremesa.Margin = new System.Windows.Forms.Padding(4);
+            this.btnretiroremesa.Location = new System.Drawing.Point(81, 193);
             this.btnretiroremesa.Name = "btnretiroremesa";
-            this.btnretiroremesa.Size = new System.Drawing.Size(200, 60);
+            this.btnretiroremesa.Size = new System.Drawing.Size(159, 49);
             this.btnretiroremesa.TabIndex = 2;
             this.btnretiroremesa.Text = "Remesas";
             this.btnretiroremesa.UseVisualStyleBackColor = false;
@@ -90,10 +87,9 @@
             this.btngenerarremesa.BackColor = System.Drawing.Color.DarkRed;
             this.btngenerarremesa.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btngenerarremesa.ForeColor = System.Drawing.Color.White;
-            this.btngenerarremesa.Location = new System.Drawing.Point(108, 347);
-            this.btngenerarremesa.Margin = new System.Windows.Forms.Padding(4);
+            this.btngenerarremesa.Location = new System.Drawing.Point(81, 282);
             this.btngenerarremesa.Name = "btngenerarremesa";
-            this.btngenerarremesa.Size = new System.Drawing.Size(200, 60);
+            this.btngenerarremesa.Size = new System.Drawing.Size(159, 49);
             this.btngenerarremesa.TabIndex = 3;
             this.btngenerarremesa.Text = "Generar remesa";
             this.btngenerarremesa.UseVisualStyleBackColor = false;
@@ -104,10 +100,9 @@
             this.btnservicios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
             this.btnservicios.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnservicios.ForeColor = System.Drawing.Color.White;
-            this.btnservicios.Location = new System.Drawing.Point(108, 447);
-            this.btnservicios.Margin = new System.Windows.Forms.Padding(4);
+            this.btnservicios.Location = new System.Drawing.Point(444, 282);
             this.btnservicios.Name = "btnservicios";
-            this.btnservicios.Size = new System.Drawing.Size(200, 60);
+            this.btnservicios.Size = new System.Drawing.Size(159, 49);
             this.btnservicios.TabIndex = 4;
             this.btnservicios.Text = "Pago de servicios";
             this.btnservicios.UseVisualStyleBackColor = false;
@@ -118,10 +113,9 @@
             this.btnpagos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
             this.btnpagos.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnpagos.ForeColor = System.Drawing.Color.White;
-            this.btnpagos.Location = new System.Drawing.Point(592, 237);
-            this.btnpagos.Margin = new System.Windows.Forms.Padding(4);
+            this.btnpagos.Location = new System.Drawing.Point(444, 193);
             this.btnpagos.Name = "btnpagos";
-            this.btnpagos.Size = new System.Drawing.Size(200, 60);
+            this.btnpagos.Size = new System.Drawing.Size(159, 49);
             this.btnpagos.TabIndex = 5;
             this.btnpagos.Text = "Pago de prestamo";
             this.btnpagos.UseVisualStyleBackColor = false;
@@ -132,10 +126,9 @@
             this.btntransferencia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
             this.btntransferencia.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btntransferencia.ForeColor = System.Drawing.Color.White;
-            this.btntransferencia.Location = new System.Drawing.Point(592, 133);
-            this.btntransferencia.Margin = new System.Windows.Forms.Padding(4);
+            this.btntransferencia.Location = new System.Drawing.Point(444, 108);
             this.btntransferencia.Name = "btntransferencia";
-            this.btntransferencia.Size = new System.Drawing.Size(200, 60);
+            this.btntransferencia.Size = new System.Drawing.Size(159, 49);
             this.btntransferencia.TabIndex = 6;
             this.btntransferencia.Text = "Transferencias";
             this.btntransferencia.UseVisualStyleBackColor = false;
@@ -144,7 +137,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Snow;
-            this.panel1.Controls.Add(this.btnMantenimineto);
+            this.panel1.Controls.Add(this.btnsalir);
             this.panel1.Controls.Add(this.lblSaldo);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.btnretiro);
@@ -154,24 +147,11 @@
             this.panel1.Controls.Add(this.btnretiroremesa);
             this.panel1.Controls.Add(this.btnservicios);
             this.panel1.Controls.Add(this.btndeposito);
-            this.panel1.Location = new System.Drawing.Point(60, 94);
+            this.panel1.Location = new System.Drawing.Point(45, 76);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(900, 600);
+            this.panel1.Size = new System.Drawing.Size(675, 488);
             this.panel1.TabIndex = 9;
-            // 
-            // btnMantenimineto
-            // 
-            this.btnMantenimineto.BackColor = System.Drawing.Color.DarkRed;
-            this.btnMantenimineto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMantenimineto.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMantenimineto.ForeColor = System.Drawing.Color.White;
-            this.btnMantenimineto.Location = new System.Drawing.Point(592, 447);
-            this.btnMantenimineto.Name = "btnMantenimineto";
-            this.btnMantenimineto.Size = new System.Drawing.Size(200, 60);
-            this.btnMantenimineto.TabIndex = 11;
-            this.btnMantenimineto.Text = "Mantenimiento";
-            this.btnMantenimineto.UseVisualStyleBackColor = false;
-            this.btnMantenimineto.Click += new System.EventHandler(this.btnMantenimineto_Click);
             // 
             // lblSaldo
             // 
@@ -179,10 +159,9 @@
             this.lblSaldo.BackColor = System.Drawing.Color.Transparent;
             this.lblSaldo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSaldo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.lblSaldo.Location = new System.Drawing.Point(401, 59);
-            this.lblSaldo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblSaldo.Location = new System.Drawing.Point(301, 48);
             this.lblSaldo.Name = "lblSaldo";
-            this.lblSaldo.Size = new System.Drawing.Size(24, 28);
+            this.lblSaldo.Size = new System.Drawing.Size(19, 21);
             this.lblSaldo.TabIndex = 10;
             this.lblSaldo.Text = "0";
             this.lblSaldo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -194,10 +173,9 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.label2.Location = new System.Drawing.Point(391, 10);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(293, 8);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(131, 28);
+            this.label2.Size = new System.Drawing.Size(106, 21);
             this.label2.TabIndex = 10;
             this.label2.Text = "Saldo Actual";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -209,23 +187,34 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.label1.Location = new System.Drawing.Point(337, 22);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(253, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(402, 41);
+            this.label1.Size = new System.Drawing.Size(320, 32);
             this.label1.TabIndex = 10;
             this.label1.Text = "CAJERO AUTOMÁTICO UES";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // btnsalir
+            // 
+            this.btnsalir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
+            this.btnsalir.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnsalir.ForeColor = System.Drawing.Color.White;
+            this.btnsalir.Location = new System.Drawing.Point(262, 436);
+            this.btnsalir.Name = "btnsalir";
+            this.btnsalir.Size = new System.Drawing.Size(159, 49);
+            this.btnsalir.TabIndex = 11;
+            this.btnsalir.Text = "Salir";
+            this.btnsalir.UseVisualStyleBackColor = false;
+            this.btnsalir.Click += new System.EventHandler(this.btnsalir_Click);
+            // 
             // Menu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1032, 803);
+            this.ClientSize = new System.Drawing.Size(774, 652);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Menu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "menu";
@@ -250,6 +239,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblSaldo;
-        private System.Windows.Forms.Button btnMantenimineto;
+        private System.Windows.Forms.Button btnsalir;
     }
 }

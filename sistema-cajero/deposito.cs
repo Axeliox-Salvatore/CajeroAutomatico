@@ -11,9 +11,9 @@ using MySql.Data.MySqlClient;
 
 namespace sistema_cajero
 {
-    public partial class deposito: Form
+    public partial class Deposito: Form
     {
-        public deposito()
+        public Deposito()
         {
             InitializeComponent();
         }
@@ -65,6 +65,30 @@ namespace sistema_cajero
 
                 MessageBox.Show("Depósito realizado con éxito.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 conexion.Close();
+
+                Menu menu = new Menu();
+                menu.Show();
+                this.Close();
+            }
+        }
+
+        private void txtcantidad_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtcantidad_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            // Permitir solo números, un punto y teclas de control (como backspace)
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
+            {
+                e.Handled = true;
+            }
+
+            // Solo permitir un punto decimal
+            if ((e.KeyChar == '.') && ((sender as TextBox).Text.IndexOf('.') > -1))
+            {
+                e.Handled = true;
             }
         }
     }

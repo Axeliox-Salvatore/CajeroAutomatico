@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|c:\\users\\axeli\\source\\repos\\axeliox-salvatore\\cajeroautomatico\\sistema-cajero\\transferenciaexterna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|solutionrelative:transferenciaexterna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|c:\\users\\axeli\\source\\repos\\axeliox-salvatore\\cajeroautomatico\\sistema-cajero\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|c:\\users\\axeli\\source\\repos\\axeliox-salvatore\\cajeroautomatico\\sistema-cajero\\transferencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|solutionrelative:transferencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\deposito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|solutionrelative:deposito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|c:\\users\\axeli\\source\\repos\\axeliox-salvatore\\cajeroautomatico\\sistema-cajero\\servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|solutionrelative:servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\retiroremesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|solutionrelative:retiroremesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\deposito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|solutionrelative:deposito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\retiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|solutionrelative:retiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\retiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|solutionrelative:retiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|c:\\users\\axeli\\source\\repos\\axeliox-salvatore\\cajeroautomatico\\sistema-cajero\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,61 +47,88 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TransferenciaExterna.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\TransferenciaExterna.cs",
-              "RelativeDocumentMoniker": "TransferenciaExterna.cs",
-              "ToolTip": "C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\TransferenciaExterna.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TransferenciaExterna.cs [Dise\u00F1o]",
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T15:57:10.079Z",
+              "WhenOpened": "2025-05-25T18:40:10.134Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Transferencia.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\Transferencia.cs",
-              "RelativeDocumentMoniker": "Transferencia.cs",
-              "ToolTip": "C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\Transferencia.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Transferencia.cs [Dise\u00F1o]",
+              "DocumentIndex": 5,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\Menu.cs",
+              "RelativeDocumentMoniker": "Menu.cs",
+              "ToolTip": "C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\Menu.cs",
+              "RelativeToolTip": "Menu.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAAAIMAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T15:57:08.624Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-05-25T16:46:23.217Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Servicios.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\Servicios.cs",
-              "RelativeDocumentMoniker": "Servicios.cs",
-              "ToolTip": "C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\Servicios.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Servicios.cs [Dise\u00F1o]",
+              "DocumentIndex": 6,
+              "Title": "Menu.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\Menu.cs",
+              "RelativeDocumentMoniker": "Menu.cs",
+              "ToolTip": "C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\Menu.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Menu.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T15:57:06.074Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Retiroremesa.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\Retiroremesa.cs",
-              "RelativeDocumentMoniker": "Retiroremesa.cs",
-              "ToolTip": "C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\Retiroremesa.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Retiroremesa.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T06:25:30.015Z",
+              "WhenOpened": "2025-05-25T16:46:07.761Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Retiro.cs",
+              "DocumentMoniker": "C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\Retiro.cs",
+              "RelativeDocumentMoniker": "Retiro.cs",
+              "ToolTip": "C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\Retiro.cs",
+              "RelativeToolTip": "Retiro.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T16:45:07.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Retiro.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\Retiro.cs",
               "RelativeDocumentMoniker": "Retiro.cs",
               "ToolTip": "C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\Retiro.cs [Dise\u00F1o]",
               "RelativeToolTip": "Retiro.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T06:18:45.938Z",
+              "WhenOpened": "2025-05-25T16:45:06.351Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Deposito.cs",
+              "DocumentMoniker": "C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\Deposito.cs",
+              "RelativeDocumentMoniker": "Deposito.cs",
+              "ToolTip": "C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\Deposito.cs",
+              "RelativeToolTip": "Deposito.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAAEYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T16:44:30.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Deposito.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\Deposito.cs",
+              "RelativeDocumentMoniker": "Deposito.cs",
+              "ToolTip": "C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\Deposito.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Deposito.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T16:44:23.303Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

@@ -106,7 +106,6 @@ C:\Users\Pc\Desktop\proyecto\CajeroAutomatico\sistema-cajero\obj\Debug\sistema-c
 C:\Users\Pc\Desktop\proyecto\CajeroAutomatico\sistema-cajero\obj\Debug\sistema-.C65603F1.Up2Date
 C:\Users\Pc\Desktop\proyecto\CajeroAutomatico\sistema-cajero\obj\Debug\sistema-cajero.exe
 C:\Users\Pc\Desktop\proyecto\CajeroAutomatico\sistema-cajero\obj\Debug\sistema-cajero.pdb
-C:\Users\Pc\Desktop\proyecto\CajeroAutomatico\sistema-cajero\obj\Debug\sistema_cajero.Depositos.resources
 C:\Users\Pc\Desktop\proyecto\CajeroAutomatico\sistema-cajero\obj\Debug\sistema_cajero.Retiroremesa.resources
 C:\Users\Pc\Desktop\proyecto\CajeroAutomatico\sistema-cajero\obj\Debug\sistema_cajero.Generarremesa.resources
 C:\Users\axeli\source\repos\Axeliox-Salvatore\CajeroAutomatico\sistema-cajero\bin\Debug\sistema-cajero.exe.config
@@ -145,7 +144,6 @@ C:\Users\axeli\source\repos\Axeliox-Salvatore\CajeroAutomatico\sistema-cajero\bi
 C:\Users\axeli\source\repos\Axeliox-Salvatore\CajeroAutomatico\sistema-cajero\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\axeli\source\repos\Axeliox-Salvatore\CajeroAutomatico\sistema-cajero\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\axeli\source\repos\Axeliox-Salvatore\CajeroAutomatico\sistema-cajero\obj\Debug\sistema-cajero.csproj.AssemblyReference.cache
-C:\Users\axeli\source\repos\Axeliox-Salvatore\CajeroAutomatico\sistema-cajero\obj\Debug\sistema_cajero.Depositos.resources
 C:\Users\axeli\source\repos\Axeliox-Salvatore\CajeroAutomatico\sistema-cajero\obj\Debug\sistema_cajero.Form1.resources
 C:\Users\axeli\source\repos\Axeliox-Salvatore\CajeroAutomatico\sistema-cajero\obj\Debug\sistema_cajero.Generarremesa.resources
 C:\Users\axeli\source\repos\Axeliox-Salvatore\CajeroAutomatico\sistema-cajero\obj\Debug\sistema_cajero.Menu.resources
@@ -161,4 +159,14 @@ C:\Users\axeli\source\repos\Axeliox-Salvatore\CajeroAutomatico\sistema-cajero\ob
 C:\Users\axeli\source\repos\Axeliox-Salvatore\CajeroAutomatico\sistema-cajero\obj\Debug\sistema-cajero.exe
 C:\Users\axeli\source\repos\Axeliox-Salvatore\CajeroAutomatico\sistema-cajero\obj\Debug\sistema-cajero.pdb
 C:\Users\axeli\source\repos\Axeliox-Salvatore\CajeroAutomatico\sistema-cajero\obj\Debug\sistema_cajero.Mantenimiento.resources
-C:\Users\axeli\source\repos\Axeliox-Salvatore\CajeroAutomatico\sistema-cajero\obj\Debug\sistema_cajero.RecuperarPIn.resources
+C:\Users\Pc\Desktop\proyecto\CajeroAutomatico\sistema-cajero\obj\Debug\sistema_cajero.deposito.resources
+C:\Users\Pc\Desktop\proyecto\CajeroAutomatico\sistema-cajero\obj\Debug\sistema_cajero.Mantenimiento.resources
+C:\Users\Pc\Desktop\proyecto\CajeroAutomatico\sistema-cajero\obj\Debug\sistema_cajero.Pago.resources
+C:\Users\Pc\Desktop\proyecto\CajeroAutomatico\sistema-cajero\obj\Debug\sistema_cajero.Servicios.resources
+C:\Users\Pc\Desktop\proyecto\CajeroAutomatico\sistema-cajero\obj\Debug\sistema_cajero.Transferencia.resources
+C:\Users\Pc\Desktop\proyecto\CajeroAutomatico\sistema-cajero\obj\Debug\sistema_cajero.TransferenciaExterna.resources
+C:\Users\axeli\source\repos\Axeliox-Salvatore\CajeroAutomatico\sistema-cajero\obj\Debug\sistema_cajero.Deposito.resources
+C:\Users\axeli\source\repos\Axeliox-Salvatore\CajeroAutomatico\sistema-cajero\obj\Debug\sistema_cajero.Pago.resources
+C:\Users\axeli\source\repos\Axeliox-Salvatore\CajeroAutomatico\sistema-cajero\obj\Debug\sistema_cajero.Servicios.resources
+C:\Users\axeli\source\repos\Axeliox-Salvatore\CajeroAutomatico\sistema-cajero\obj\Debug\sistema_cajero.Transferencia.resources
+C:\Users\axeli\source\repos\Axeliox-Salvatore\CajeroAutomatico\sistema-cajero\obj\Debug\sistema_cajero.TransferenciaExterna.resources
