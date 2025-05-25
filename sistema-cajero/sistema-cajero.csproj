@@ -99,11 +99,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConexionDB.cs" />
-    <Compile Include="Depositos.cs">
+    <Compile Include="deposito.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Depositos.Designer.cs">
-      <DependentUpon>Depositos.cs</DependentUpon>
+    <Compile Include="deposito.Designer.cs">
+      <DependentUpon>deposito.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -185,8 +185,14 @@
     <Compile Include="Transferencia.Designer.cs">
       <DependentUpon>Transferencia.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Depositos.resx">
-      <DependentUpon>Depositos.cs</DependentUpon>
+    <Compile Include="TransferenciaExterna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransferenciaExterna.Designer.cs">
+      <DependentUpon>TransferenciaExterna.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="deposito.resx">
+      <DependentUpon>deposito.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -194,8 +200,14 @@
     <EmbeddedResource Include="Generarremesa.resx">
       <DependentUpon>Generarremesa.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento.resx">
+      <DependentUpon>Mantenimiento.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pago.resx">
+      <DependentUpon>Pago.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -205,6 +217,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="RegistroBanco.resx">
       <DependentUpon>RegistroBanco.cs</DependentUpon>
@@ -221,6 +234,15 @@
     <EmbeddedResource Include="SeleccionRegistro.resx">
       <DependentUpon>SeleccionRegistro.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Servicios.resx">
+      <DependentUpon>Servicios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transferencia.resx">
+      <DependentUpon>Transferencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransferenciaExterna.resx">
+      <DependentUpon>TransferenciaExterna.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -234,6 +256,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo ues.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark-header-v2-500x176.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

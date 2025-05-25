@@ -57,5 +57,10 @@ namespace sistema_cajero
                 conexion.Close();
             }
         }
+
+        private void mtxtcodremesa_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
     }
 }

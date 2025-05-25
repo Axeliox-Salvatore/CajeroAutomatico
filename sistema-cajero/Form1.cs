@@ -8,7 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
-//using MySql.Data.MySqlClient;
 
 
 namespace sistema_cajero
@@ -17,59 +16,68 @@ namespace sistema_cajero
     {
         public Form1()
         {
-            InitializeComponent();
+            InitializeComponent();    
+
         }
+        //Nueva variable para almacenar el ID del usuario logueado
+        public static int UsuarioIDActual;
+
+        //Se mantiene la variable que almacena el correo, nombre o DUI ingresado
+        public static string UsuarioIngresado;
+
 
         private void btniniciarsesion_Click(object sender, EventArgs e)
         {
-            // Validar que los campos no estén vacíos
+            // Validacion para evitar campos vacíos
             if (string.IsNullOrWhiteSpace(txtusuario.Text) || string.IsNullOrWhiteSpace(txtcontraseña.Text))
             {
                 MessageBox.Show("Por favor, ingresa tu correo, nombre o DUI y tu PIN.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
-            // Obtener usuario y PIN ingresados
             string usuario = txtusuario.Text.Trim();
             string pin = txtcontraseña.Text.Trim();
-
-            // Conexión con MySQL
             MySqlConnection conexion = ConexionDB.Conexion();
 
             try
             {
                 conexion.Open();
 
-                // Consulta SQL: Buscar en `Clientes` y `UsuariosBanco`
+                //aqui obtenemos el ID del usuario y su tipo (Cliente/Banco)
                 string consulta = @"
-            SELECT 'Cliente' AS Tipo FROM Clientes WHERE (Correo = @usuario OR Nombre = @usuario OR DUI = @usuario) AND PIN = SHA2(@pin, 256)
-            UNION
-            SELECT 'Banco' AS Tipo FROM UsuariosBanco WHERE (Correo = @usuario OR Nombre = @usuario OR DUI = @usuario) AND PIN = SHA2(@pin, 256)";
+                    SELECT ID, 'Cliente' AS Tipo FROM Clientes 
+                    WHERE (Correo = @usuario OR Nombre = @usuario OR DUI = @usuario) AND PIN = SHA2(@pin, 256)
+                    UNION
+                    SELECT ID, 'Banco' AS Tipo FROM UsuariosBanco 
+                    WHERE (Correo = @usuario OR Nombre = @usuario OR DUI = @usuario) AND PIN = SHA2(@pin, 256)";
 
                 MySqlCommand comando = new MySqlCommand(consulta, conexion);
                 comando.Parameters.AddWithValue("@usuario", usuario);
                 comando.Parameters.AddWithValue("@pin", pin);
 
-                object resultado = comando.ExecuteScalar();
-
-                if (resultado != null)
+                // Ahora: Usamos ExecuteReader() para obtener varios valores (ID y Tipo de usuario)
+                MySqlDataReader lector = comando.ExecuteReader();
+                if (lector.Read()) // Si hay datos
                 {
-                    MessageBox.Show("¡Bienvenido!", "Acceso concedido", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    //Guardamos el ID del usuario
+                    UsuarioIDActual = lector.GetInt32(0);
+                    UsuarioIngresado = usuario; // Guardamos el usuario ingresado
+                    string tipoUsuario = lector.GetString(1); // Obtenemos el tipo (Cliente o Banco)
 
-                    // Determinar si el usuario es Cliente o Banco
-                    string tipoUsuario = resultado.ToString();
+                    MessageBox.Show($"Bienvenido, ID: {UsuarioIDActual}", "Acceso concedido", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                    conexion.Close(); // Cierra conexión después de verificar
-
+                    conexion.Close();
                     this.Hide();
+
+                    //aqui menu puede obtener el ID usando UsuarioIDActual
                     if (tipoUsuario == "Banco")
-                        new PanelBanco().Show(); // Redirigir al Panel Banco
+                        new PanelBanco().Show();
                     else
-                        new Menu().Show(); // Redirigir al Panel Cliente
+                        new Menu().Show();
                 }
                 else
                 {
-                    conexion.Close(); // Cerrar si el login es incorrecto
+                    conexion.Close();
                     MessageBox.Show("Correo, nombre o DUI incorrecto, o PIN incorrecto.", "Error de acceso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             }
@@ -77,6 +85,7 @@ namespace sistema_cajero
             {
                 MessageBox.Show("Error de conexión: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+
 
         }
         private void SeleccionRegistro_FormClosing(object sender, FormClosingEventArgs e)
@@ -96,9 +105,22 @@ namespace sistema_cajero
 
         private void btnMantenimiento_Click(object sender, EventArgs e)
         {
-            Mantenimiento ventanaMantenimiento = new Mantenimiento();
-            ventanaMantenimiento.Show();
-            this.Hide();
+            
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

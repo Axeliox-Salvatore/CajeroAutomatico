@@ -14,11 +14,15 @@ namespace sistema_cajero
 {
     public partial class Menu : Form
     {
+        
         public Menu()
         {
             InitializeComponent();
+  
         }
 
+
+        //BOTNES
         private void btnretiro_Click(object sender, EventArgs e)
         {
             Retiro ventanaRetiro = new Retiro();
@@ -73,28 +77,57 @@ namespace sistema_cajero
             this.Hide();
         }
 
-        /*private void button1_Click(object sender, EventArgs e)//botoin para probar si hay conexion, despues se elimina
+        private void label2_Click(object sender, EventArgs e)
         {
-            string consulta = "SELECT * FROM cuentasexternas";
-            MySqlConnection Miconexion = ConexionDB.Conexion();
+
+        }
+
+        //METODOS y FUNCIONES
+
+        //aqui es mejor crear los metodos para el saldo 
+        
+        
+        // Método para obtener el saldo del usuario con el ID obtenido
+        private void MostrarSaldo(int usuarioID)
+        {
+            MySqlConnection conexion = ConexionDB.Conexion();
 
             try
             {
-                //abrimos la conexion a la base de datos
-                Miconexion.Open();
-                //creamos el comando
-                MySqlCommand comando = new MySqlCommand(consulta, Miconexion);
-                MySqlDataAdapter adapter = new MySqlDataAdapter(comando);
+                conexion.Open();
+                string consulta = "SELECT Saldo FROM Clientes WHERE ID = @usuarioID";
 
-                DataTable dt = new DataTable();
-                adapter.Fill(dt);
-                Miconexion.Close();
-                dgbPrue.DataSource = dt;
+                MySqlCommand comando = new MySqlCommand(consulta, conexion);
+                comando.Parameters.AddWithValue("@usuarioID", usuarioID);
+
+                object resultado = comando.ExecuteScalar();
+                conexion.Close();
+
+                lblSaldo.Text = resultado != null ? $"$ {resultado.ToString()}" : "Saldo no disponible";
             }
-            catch(MySqlException ex)
+            catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show("Error al obtener el saldo: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-        }*/
+        }
+
+
+        //Aqui se carga el menu y se muestran los datos del usuario deberia ir arriba pero asi que quede
+        private void Menu_Load(object sender, EventArgs e)
+        {
+            // Mostramos el usuario en sesion antes de cargar los datos
+            MessageBox.Show($"Usuario en sesión: {Form1.UsuarioIngresado}", "Depuración", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            // Pasamos el ID directamente desde Form1
+            MostrarSaldo(Form1.UsuarioIDActual);
+
+        }
+
+        private void btnMantenimineto_Click(object sender, EventArgs e)
+        {
+            Mantenimiento VentanaPIN = new Mantenimiento();
+            VentanaPIN.Show();
+            this.Hide();
+        }
     }
 }
+

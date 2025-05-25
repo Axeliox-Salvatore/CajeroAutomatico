@@ -11,14 +11,24 @@ using MySql.Data.MySqlClient;
 
 namespace sistema_cajero
 {
-    public partial class Depositos: Form
+    public partial class deposito: Form
     {
-        public Depositos()
+        public deposito()
         {
             InitializeComponent();
         }
 
         private void btndepositar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+       // private void btnPagar_Click(object sender, EventArgs e)
+       // {
+           
+       // }
+
+        private void btnPagar_Click_1(object sender, EventArgs e)
         {
             string dui = mtxtdui.Text.Trim();
             decimal montoDeposito;

@@ -63,6 +63,7 @@ namespace sistema_cajero
 
                 MessageBox.Show("Retiro realizado con éxito.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 conexion.Close();
+
             }
         }
     }
