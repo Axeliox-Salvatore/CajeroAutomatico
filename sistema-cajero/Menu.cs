@@ -32,7 +32,7 @@ namespace sistema_cajero
 
         private void btndeposito_Click(object sender, EventArgs e)
         {
-            Depositos ventanaDeposito = new Depositos();
+            Deposito ventanaDeposito = new Deposito();
             ventanaDeposito.Show();
             this.Hide();
         }
@@ -124,9 +124,12 @@ namespace sistema_cajero
 
         private void btnMantenimineto_Click(object sender, EventArgs e)
         {
-            Mantenimiento VentanaPIN = new Mantenimiento();
-            VentanaPIN.Show();
-            this.Hide();
+           
+        }
+
+        private void btnsalir_Click(object sender, EventArgs e)
+        {
+            Application.Exit(); // Cierra la aplicación
         }
     }
 }

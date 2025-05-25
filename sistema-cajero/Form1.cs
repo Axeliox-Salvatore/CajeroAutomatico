@@ -105,7 +105,9 @@ namespace sistema_cajero
 
         private void btnMantenimiento_Click(object sender, EventArgs e)
         {
-            
+            Mantenimiento VentanaPIN = new Mantenimiento();
+            VentanaPIN.Show();
+            this.Hide();
         }
 
         private void label1_Click(object sender, EventArgs e)

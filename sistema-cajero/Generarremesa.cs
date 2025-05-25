@@ -63,6 +63,26 @@ namespace sistema_cajero
 
                 MessageBox.Show("Remesa generada y saldo actualizado.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 conexion.Close();
+
+                Menu menu = new Menu();
+                menu.Show();
+                this.Close();
+            }
+        }
+
+        private void txtcantidad_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            // Permitir solo números, un punto y teclas de control (como backspace)
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
+            {
+                e.Handled = true;
+                MessageBox.Show("Por favor, ingrese solo números o un punto decimal.", "Entrada no válida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+
+            // Solo permitir un punto decimal
+            if ((e.KeyChar == '.') && ((sender as TextBox).Text.IndexOf('.') > -1))
+            {
+                e.Handled = true;
             }
         }
     }
