@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Pc\\Desktop\\proyecto\\CajeroAutomatico\\sistema-cajero\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|c:\\users\\pc\\desktop\\proyecto\\cajeroautomatico\\sistema-cajero\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|c:\\users\\pc\\desktop\\proyecto\\cajeroautomatico\\sistema-cajero\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|C:\\Users\\Pc\\Desktop\\proyecto\\CajeroAutomatico\\sistema-cajero\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|c:\\users\\pc\\desktop\\proyecto\\cajeroautomatico\\sistema-cajero\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|C:\\Users\\Pc\\Desktop\\proyecto\\CajeroAutomatico\\sistema-cajero\\registrobanco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|solutionrelative:registrobanco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,32 +22,19 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\proyecto\\CajeroAutomatico\\sistema-cajero\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\proyecto\\CajeroAutomatico\\sistema-cajero\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAcwIcAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "RegistroBanco.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\proyecto\\CajeroAutomatico\\sistema-cajero\\RegistroBanco.cs",
+              "RelativeDocumentMoniker": "RegistroBanco.cs",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\proyecto\\CajeroAutomatico\\sistema-cajero\\RegistroBanco.cs [Dise\u00F1o]",
+              "RelativeToolTip": "RegistroBanco.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T01:44:43.315Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\proyecto\\CajeroAutomatico\\sistema-cajero\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\proyecto\\CajeroAutomatico\\sistema-cajero\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T01:44:41.962Z",
+              "WhenOpened": "2025-05-26T03:55:21.449Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Menu.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\proyecto\\CajeroAutomatico\\sistema-cajero\\Menu.cs",
               "RelativeDocumentMoniker": "Menu.cs",
