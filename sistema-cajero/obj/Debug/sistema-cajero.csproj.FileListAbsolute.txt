@@ -171,3 +171,4 @@ C:\Users\axeli\source\repos\Axeliox-Salvatore\CajeroAutomatico\sistema-cajero\ob
 C:\Users\axeli\source\repos\Axeliox-Salvatore\CajeroAutomatico\sistema-cajero\obj\Debug\sistema_cajero.Transferencia.resources
 C:\Users\axeli\source\repos\Axeliox-Salvatore\CajeroAutomatico\sistema-cajero\obj\Debug\sistema_cajero.TransferenciaExterna.resources
 C:\Users\axeli\source\repos\Axeliox-Salvatore\CajeroAutomatico\sistema-cajero\obj\Debug\sistema_cajero.MenuTransferencia.resources
+C:\Users\Pc\Desktop\proyecto\CajeroAutomatico\sistema-cajero\obj\Debug\sistema_cajero.MenuTransferencia.resources

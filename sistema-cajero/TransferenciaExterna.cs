@@ -92,9 +92,38 @@ namespace sistema_cajero
                 MessageBox.Show($"Transferencia de ${montoTransferencia} a la cuenta {cuentaDestino} completada.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 conexion.Close();
 
-                Application.Exit(); //Cierra la aplicación tras la transferencia
+                Menu menu = new Menu();
+                menu.Show();
+                this.Close();
             }
 
+        }
+
+        private void txtCuentaDestino_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            // Permitir solo números, un punto y teclas de control (como backspace)
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+                MessageBox.Show("Por favor, ingrese solo números", "Entrada no válida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+
+        }
+
+        private void txtMonto_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            // Permitir solo números, un punto y teclas de control (como backspace)
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
+            {
+                e.Handled = true;
+                MessageBox.Show("Por favor, ingrese solo números o un punto decimal.", "Entrada no válida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+
+            // Solo permitir un punto decimal
+            if ((e.KeyChar == '.') && ((sender as TextBox).Text.IndexOf('.') > -1))
+            {
+                e.Handled = true;
+            }
         }
     }
   
