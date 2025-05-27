@@ -1,18 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Pc\\Desktop\\proyecto\\CajeroAutomatico\\sistema-cajero\\",
+  "WorkspaceRootPath": "C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|c:\\users\\pc\\desktop\\proyecto\\cajeroautomatico\\sistema-cajero\\retiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|solutionrelative:retiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|c:\\users\\axeli\\source\\repos\\axeliox-salvatore\\cajeroautomatico\\sistema-cajero\\usuariobancopanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|solutionrelative:usuariobancopanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|C:\\Users\\Pc\\Desktop\\proyecto\\CajeroAutomatico\\sistema-cajero\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|c:\\users\\axeli\\source\\repos\\axeliox-salvatore\\cajeroautomatico\\sistema-cajero\\usuariobancopanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|solutionrelative:usuariobancopanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|c:\\users\\pc\\desktop\\proyecto\\cajeroautomatico\\sistema-cajero\\registrobanco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|c:\\users\\axeli\\source\\repos\\axeliox-salvatore\\cajeroautomatico\\sistema-cajero\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\registrobanco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|solutionrelative:registrobanco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|c:\\users\\axeli\\source\\repos\\axeliox-salvatore\\cajeroautomatico\\sistema-cajero\\registrocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|solutionrelative:registrocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|c:\\users\\axeli\\source\\repos\\axeliox-salvatore\\cajeroautomatico\\sistema-cajero\\registrobanco.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|solutionrelative:registrobanco.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0E5148E9-52FC-4793-AC49-45A1D69E7F9C}|sistema-cajero.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,27 +38,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Retiro.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\proyecto\\CajeroAutomatico\\sistema-cajero\\Retiro.cs",
-              "RelativeDocumentMoniker": "Retiro.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\proyecto\\CajeroAutomatico\\sistema-cajero\\Retiro.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Retiro.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T03:58:32.76Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T22:29:54.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuariobancoPanel.cs",
+              "DocumentMoniker": "C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\UsuariobancoPanel.cs",
+              "RelativeDocumentMoniker": "UsuariobancoPanel.cs",
+              "ToolTip": "C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\UsuariobancoPanel.cs",
+              "RelativeToolTip": "UsuariobancoPanel.cs",
+              "ViewState": "AgIAANEBAAAAAAAAAAAcwNIBAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T22:21:39.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuariobancoPanel.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\UsuariobancoPanel.cs",
+              "RelativeDocumentMoniker": "UsuariobancoPanel.cs",
+              "ToolTip": "C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\UsuariobancoPanel.cs [Dise\u00F1o]",
+              "RelativeToolTip": "UsuariobancoPanel.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T22:20:53.248Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegistroBanco.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\RegistroBanco.Designer.cs",
+              "RelativeDocumentMoniker": "RegistroBanco.Designer.cs",
+              "ToolTip": "C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\RegistroBanco.Designer.cs",
+              "RelativeToolTip": "RegistroBanco.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T22:16:16.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegistroCliente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\RegistroCliente.cs",
+              "RelativeDocumentMoniker": "RegistroCliente.cs",
+              "ToolTip": "C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\RegistroCliente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "RegistroCliente.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T20:59:20.29Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "RegistroBanco.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\proyecto\\CajeroAutomatico\\sistema-cajero\\RegistroBanco.cs",
+              "DocumentMoniker": "C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\RegistroBanco.cs",
               "RelativeDocumentMoniker": "RegistroBanco.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\proyecto\\CajeroAutomatico\\sistema-cajero\\RegistroBanco.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\RegistroBanco.cs [Dise\u00F1o]",
               "RelativeToolTip": "RegistroBanco.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T03:55:21.449Z",
@@ -50,11 +121,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Menu.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\proyecto\\CajeroAutomatico\\sistema-cajero\\Menu.cs",
+              "DocumentMoniker": "C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\Menu.cs",
               "RelativeDocumentMoniker": "Menu.cs",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\proyecto\\CajeroAutomatico\\sistema-cajero\\Menu.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\axeli\\source\\repos\\Axeliox-Salvatore\\CajeroAutomatico\\sistema-cajero\\Menu.cs [Dise\u00F1o]",
               "RelativeToolTip": "Menu.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-25T16:46:07.761Z",

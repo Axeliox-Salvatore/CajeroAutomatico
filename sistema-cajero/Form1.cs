@@ -71,7 +71,7 @@ namespace sistema_cajero
 
                     //aqui menu puede obtener el ID usando UsuarioIDActual
                     if (tipoUsuario == "Banco")
-                        new PanelBanco().Show();
+                        new UsuariobancoPanel().Show();
                     else
                         new Menu().Show();
                 }

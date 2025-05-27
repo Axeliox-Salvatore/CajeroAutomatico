@@ -240,6 +240,7 @@
             this.ClientSize = new System.Drawing.Size(832, 603);
             this.Controls.Add(this.panel1);
             this.Name = "RegistroBanco";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RegistroBanco";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 25-05-2025 a las 20:29:48
+-- Tiempo de generación: 27-05-2025 a las 03:00:22
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -44,8 +44,8 @@ CREATE TABLE `clientes` (
 --
 
 INSERT INTO `clientes` (`ID`, `Nombre`, `Apellido`, `DUI`, `Correo`, `Telefono`, `TipoCuenta`, `PIN`, `Saldo`) VALUES
-(2, 'Sofia', 'Romero', '149809027', 'sofia.romero1@gmail.com', '86245958', 'Corriente', 'ed6dea48048cfd0c2ececb0e80c6c3b992165dcac4d45528909d9b53164cd79a', 2312.53),
-(3, 'Diego', 'Lopez', '525572995', 'diego.lopez2@gmail.com', '33256879', 'Ahorro', '20bc9a3dbbc8e2f1e83cde8a0dabe43f558426a140b6dddc7f451b018283a906', 2015.32),
+(2, 'Sofia', 'Romero', '149809027', 'sofiaas', '78787877', 'Corriente', 'ed6dea48048cfd0c2ececb0e80c6c3b992165dcac4d45528909d9b53164cd79a', 1692.53),
+(3, 'Diego', 'Lopez', '525572995', 'diego.lopez2@gmail.com', '33256879', 'Ahorro', '20bc9a3dbbc8e2f1e83cde8a0dabe43f558426a140b6dddc7f451b018283a906', 2515.32),
 (4, 'Camila', 'Castillo', '253891953', 'camila.castillo3@gmail.com', '93376476', 'Corriente', '3d49ab508c58b7a14622eb81075e157505aa65c881f27bae82915b0f9742724c', 2350.99),
 (5, 'Mateo', 'Garcia', '430849212', 'mateo.garcia4@gmail.com', '55586235', 'Ahorro', '7bd341f08056de72d77d24aa5bc681dcb485b628df4fd03179e30ee2bc01f097', 1518.94),
 (6, 'Valentina', 'Diaz', '756973652', 'valentina.diaz5@gmail.com', '26422476', 'Ahorro', '202fd26f14d638ccb40975163ab0f05e1acf24c04a30708b3e0abfac44301a08', 1065.96),
@@ -95,8 +95,7 @@ INSERT INTO `clientes` (`ID`, `Nombre`, `Apellido`, `DUI`, `Correo`, `Telefono`,
 (50, 'Luna', 'Rosales', '274985039', 'luna.rosales49@gmail.com', '36586259', 'Ahorro', 'd70ada757917455ce5a436e921854e35871e9e368050c3681c94ca9435c71c66', 227.20),
 (51, 'Marco', 'Sanchez', '451237153', 'marco.sanchez50@gmail.com', '42273948', 'Ahorro', '3217efb0c7592918e22986cb85ff86d1a7bbc81b6a293403235ebb2f952f6a1c', 139.81),
 (52, 'axel', 'her', '777777777', 'dsa@g', '88888888', 'Ahorro', '0ffe1abd1a08215353c233d6e009613e95eec4253832a761af28ff37ac5a150c', 1000.20),
-(53, 'qqq', 'www', '999999999', 'dsax@', '88888888', 'Corriente', '9af15b336e6a9619928537df30b2e6a2376569fcf9d7e773eccede65606529a0', 500.00),
-(54, 'r', 'f', '555555555', 'd', '78787878', 'Ahorro', 'd7697570462f7562b83e81258de0f1e41832e98072e44c36ec8efec46786e24e', 300.00);
+(53, 'qqq', 'www', '999999999', 'dsax@', '88888888', 'Corriente', '9af15b336e6a9619928537df30b2e6a2376569fcf9d7e773eccede65606529a0', 500.00);
 
 -- --------------------------------------------------------
 
@@ -118,7 +117,7 @@ CREATE TABLE `cuentasexternas` (
 
 INSERT INTO `cuentasexternas` (`ID`, `Banco`, `Cuenta`, `Usuario`, `Valor`) VALUES
 (1, 'Cuscatlan', '136854298521', 'Andres Garcia', 10.20),
-(3, 'Banco Agrícola', '19823745', 'sofia', 125.50),
+(3, 'Banco Agrícola', '19823745', 'sofia', 625.50),
 (4, 'Davivienda', '29384756', 'diego', 240.75),
 (5, 'Scotiabank', '38475692', 'camila', 312.00),
 (6, 'Banco Hipotecario', '47586931', 'mateo', 98.25),
@@ -136,8 +135,7 @@ INSERT INTO `cuentasexternas` (`ID`, `Banco`, `Cuenta`, `Usuario`, `Valor`) VALU
 (18, 'Banco Hipotecario', '16274839', 'valeria', 260.00),
 (19, 'Banco Agrícola', '17839204', 'mariana', 145.30),
 (20, 'Davivienda', '18374659', 'alejandro', 390.20),
-(21, 'Scotiabank', '19485730', 'isabella', 110.60),
-(22, 'Banco Hipotecario', '20485937', 'sebastian', 285.15);
+(21, 'Scotiabank', '19485730', 'isabella', 110.60);
 
 -- --------------------------------------------------------
 
@@ -159,7 +157,7 @@ CREATE TABLE `pagos` (
 --
 
 INSERT INTO `pagos` (`ID`, `NumeroPago`, `Tipo`, `Monto`, `Estado`, `Fecha`) VALUES
-(1, '19382', 'Luz', 45.75, 'Pendiente', '2025-05-25 13:42:30'),
+(1, '19382', 'Luz', 20.75, 'Pendiente', '2025-05-25 13:42:30'),
 (2, '24817', 'Agua', 37.50, 'Pendiente', '2025-05-25 13:42:30'),
 (3, '39028', 'Telefono', 29.99, 'Pendiente', '2025-05-25 13:42:30'),
 (4, '57293', 'Luz', 60.00, 'Pendiente', '2025-05-25 13:42:30'),
@@ -195,37 +193,40 @@ CREATE TABLE `prestamos` (
   `Fecha` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
--- --------------------------------------------------------
-
 --
--- Estructura de tabla para la tabla `remesas`
+-- Volcado de datos para la tabla `prestamos`
 --
 
-CREATE TABLE `remesas` (
-  `ID` int(11) NOT NULL,
-  `Codigo` varchar(8) NOT NULL,
-  `Monto` decimal(10,2) NOT NULL,
-  `Remitente` varchar(100) NOT NULL,
-  `Destinatario` varchar(100) NOT NULL,
-  `Estado` enum('Pendiente','Retirado') DEFAULT 'Pendiente',
-  `FechaCreacion` timestamp NOT NULL DEFAULT current_timestamp(),
-  `FechaRetiro` timestamp NULL DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
--- --------------------------------------------------------
-
---
--- Estructura de tabla para la tabla `transacciones`
---
-
-CREATE TABLE `transacciones` (
-  `ID` int(11) NOT NULL,
-  `ClienteID` int(11) NOT NULL,
-  `Tipo` enum('Retiro','Deposito','Pago','Remesa','Transferencia') NOT NULL,
-  `Monto` decimal(10,2) NOT NULL,
-  `CuentaDestino` int(11) DEFAULT NULL,
-  `Fecha` timestamp NOT NULL DEFAULT current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+INSERT INTO `prestamos` (`ID`, `ClienteID`, `MontoTotal`, `SaldoPendiente`, `Estado`, `Fecha`) VALUES
+(1, 2, 1750.00, 1660.00, 'Activo', '2025-05-25 19:06:21'),
+(2, 3, 820.00, 820.00, 'Activo', '2025-05-25 19:06:21'),
+(3, 4, 1925.00, 1925.00, 'Activo', '2025-05-25 19:06:21'),
+(4, 5, 1420.00, 1420.00, 'Activo', '2025-05-25 19:06:21'),
+(5, 6, 725.00, 725.00, 'Activo', '2025-05-25 19:06:21'),
+(6, 7, 1870.00, 1870.00, 'Activo', '2025-05-25 19:06:21'),
+(7, 8, 1330.00, 1330.00, 'Activo', '2025-05-25 19:06:21'),
+(8, 9, 2000.00, 2000.00, 'Activo', '2025-05-25 19:06:21'),
+(9, 10, 610.00, 610.00, 'Activo', '2025-05-25 19:06:21'),
+(10, 11, 1580.00, 1580.00, 'Activo', '2025-05-25 19:06:21'),
+(11, 12, 1960.00, 1960.00, 'Activo', '2025-05-25 19:06:21'),
+(12, 13, 1395.00, 1395.00, 'Activo', '2025-05-25 19:06:21'),
+(13, 14, 840.00, 840.00, 'Activo', '2025-05-25 19:06:21'),
+(14, 15, 1205.00, 1205.00, 'Activo', '2025-05-25 19:06:21'),
+(15, 16, 1810.00, 1810.00, 'Activo', '2025-05-25 19:06:21'),
+(16, 17, 760.00, 760.00, 'Activo', '2025-05-25 19:06:21'),
+(17, 18, 1995.00, 1995.00, 'Activo', '2025-05-25 19:06:21'),
+(18, 19, 1050.00, 1050.00, 'Activo', '2025-05-25 19:06:21'),
+(19, 20, 1435.00, 1435.00, 'Activo', '2025-05-25 19:06:21'),
+(20, 21, 935.00, 935.00, 'Activo', '2025-05-25 19:06:21'),
+(21, 22, 1685.00, 1685.00, 'Activo', '2025-05-25 19:06:21'),
+(22, 23, 950.00, 950.00, 'Activo', '2025-05-25 19:06:21'),
+(23, 24, 1270.00, 1270.00, 'Activo', '2025-05-25 19:06:21'),
+(24, 25, 2000.00, 2000.00, 'Activo', '2025-05-25 19:06:21'),
+(25, 26, 645.00, 645.00, 'Activo', '2025-05-25 19:06:21'),
+(26, 27, 1805.00, 1805.00, 'Activo', '2025-05-25 19:06:21'),
+(27, 28, 930.00, 930.00, 'Activo', '2025-05-25 19:06:21'),
+(28, 29, 1200.00, 1200.00, 'Activo', '2025-05-25 19:06:21'),
+(29, 30, 1600.00, 1600.00, 'Activo', '2025-05-25 19:06:21');
 
 -- --------------------------------------------------------
 
@@ -259,7 +260,8 @@ INSERT INTO `usuariosbanco` (`ID`, `Nombre`, `Apellido`, `DUI`, `Correo`, `Telef
 (22, 'Roberto', 'Vasquez', '889900112', 'roberto.vasquez@mail.com', '78881111', '0a4e3e70597a358b9447fa8a647aadf5b76dde95c8e4ab02e5f8cee6caa1cd28'),
 (23, 'Gabriela', 'Ortega', '990011223', 'gabriela.ortega@mail.com', '79990000', 'e4ed4d14170e2017c139c958853c66f4cecd6b43c12b0e0c641f4288bd859d93'),
 (24, 'asd', 'dede', '777777777', 'as@gmail.com', '88888888', 'edee29f882543b956620b26d0ee0e7e950399b1c4222f5de05e06425b4c995e9'),
-(25, 't', 'y', '555555555', 'd', '45612333', '07334386287751ba02a4588c1a0875dbd074a61bd9e6ab7c48d244eacd0c99e0');
+(25, 't', 'y', '555555555', 'd', '45612333', '07334386287751ba02a4588c1a0875dbd074a61bd9e6ab7c48d244eacd0c99e0'),
+(26, 'saul', 'ramos', '988888888', 'das', '98888888', '824823867acbf4b6155ba57b2a6b09abfcdb7f7078874424ff0652fec1c4c314');
 
 --
 -- Índices para tablas volcadas
@@ -295,21 +297,6 @@ ALTER TABLE `prestamos`
   ADD KEY `ClienteID` (`ClienteID`);
 
 --
--- Indices de la tabla `remesas`
---
-ALTER TABLE `remesas`
-  ADD PRIMARY KEY (`ID`),
-  ADD UNIQUE KEY `Codigo` (`Codigo`);
-
---
--- Indices de la tabla `transacciones`
---
-ALTER TABLE `transacciones`
-  ADD PRIMARY KEY (`ID`),
-  ADD KEY `ClienteID` (`ClienteID`),
-  ADD KEY `CuentaDestino` (`CuentaDestino`);
-
---
 -- Indices de la tabla `usuariosbanco`
 --
 ALTER TABLE `usuariosbanco`
@@ -331,37 +318,25 @@ ALTER TABLE `clientes`
 -- AUTO_INCREMENT de la tabla `cuentasexternas`
 --
 ALTER TABLE `cuentasexternas`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 
 --
 -- AUTO_INCREMENT de la tabla `pagos`
 --
 ALTER TABLE `pagos`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 
 --
 -- AUTO_INCREMENT de la tabla `prestamos`
 --
 ALTER TABLE `prestamos`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT de la tabla `remesas`
---
-ALTER TABLE `remesas`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT de la tabla `transacciones`
---
-ALTER TABLE `transacciones`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
 
 --
 -- AUTO_INCREMENT de la tabla `usuariosbanco`
 --
 ALTER TABLE `usuariosbanco`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
 
 --
 -- Restricciones para tablas volcadas
@@ -372,13 +347,6 @@ ALTER TABLE `usuariosbanco`
 --
 ALTER TABLE `prestamos`
   ADD CONSTRAINT `prestamos_ibfk_1` FOREIGN KEY (`ClienteID`) REFERENCES `clientes` (`ID`);
-
---
--- Filtros para la tabla `transacciones`
---
-ALTER TABLE `transacciones`
-  ADD CONSTRAINT `transacciones_ibfk_1` FOREIGN KEY (`ClienteID`) REFERENCES `clientes` (`ID`),
-  ADD CONSTRAINT `transacciones_ibfk_2` FOREIGN KEY (`CuentaDestino`) REFERENCES `clientes` (`ID`) ON DELETE SET NULL;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
